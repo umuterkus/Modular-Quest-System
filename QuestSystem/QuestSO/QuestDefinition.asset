@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb99e77b8c324b24d89544f868a71a62, type: 3}
+  m_Name: QuestDefinition
+  m_EditorClassIdentifier: 
+  QuestTitleFormat: '{0} Topla'
+  AmountRange: {x: 1, y: 5}
+  ObjectiveCountRange: {x: 1, y: 3}
+  ZoneConfigurations:
+  - ZoneName: Builder Zone
+    Zone: {fileID: 11400000, guid: 35e2f2daaa1a42f40a38ee321cc33944, type: 2}
+    PossibleItems:
+    - {fileID: 11400000, guid: 339e573065d0acc4e8fd9beb880036ad, type: 2}
+    - {fileID: 11400000, guid: c4619ad7b9528084ca117b81b9bdd3e7, type: 2}
+    - {fileID: 11400000, guid: 29f4b49554e538d49921503865227388, type: 2}
+    - {fileID: 11400000, guid: 01da15bae3a005e4ab307456d8fe1a52, type: 2}
+  - ZoneName: Ammuntion Zone
+    Zone: {fileID: 11400000, guid: 68237a22372b37641a041d71c4f03162, type: 2}
+    PossibleItems:
+    - {fileID: 11400000, guid: ffc64aadf050bd0409a606c9e5b7a8b9, type: 2}
+    - {fileID: 11400000, guid: 339e573065d0acc4e8fd9beb880036ad, type: 2}
